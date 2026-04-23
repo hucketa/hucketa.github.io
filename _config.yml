@@ -1,20 +1,20 @@
- Налаштування сайту​
-title: "Hucketa"​
-description: "Персональний сайт розробника"​
-email: gunenkoym@gmail.com​
-github_username: hucketa​
-​
-# Налаштування Jekyll​
-theme: minima​
-plugins:​
-- jekyll-feed​
-- jekyll-seo-tag​
-​
-# Налаштування URL​
-baseurl: ""​
-url: "https://hucketa.github.io"​
-​
-# Налаштування соціальних мереж​
-twitter_username: https://x.com/HucketaMeowUA​
-github_username: hucketa​
-linkedin_username: https://www.linkedin.com/in/hunenko-yaroslav-0339951b2/
+# Налаштування сайту
+title: "Hucketa"
+description: "Персональний сайт розробника"
+email: gunenkoym@gmail.com
+github_username: hucketa
+
+# Налаштування Jekyll
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Налаштування URL
+baseurl: ""
+url: "https://hucketa.github.io"
+
+# Налаштування соціальних мереж
+twitter_username: HucketaMeowUA
+github_username: hucketa
+linkedin_username: hunenko-yaroslav-0339951b2
