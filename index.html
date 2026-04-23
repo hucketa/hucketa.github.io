@@ -1,0 +1,32 @@
+---​
+layout: default​
+---​
+​
+<div class="home">​
+<h1 class="page-heading">Ласкаво просимо!</h1>​
+​
+<p>Привіт! Я Hucketa, розробник програмного забезпечення.</p>​
+​
+<h2>Про мене</h2>​
+<p>Короткий опис про себе, навички та інтереси.</p>​
+​
+<h2>Проекти</h2>​
+<ul>​
+<li><a
+href="https://github.com/hucketa/LR1">Проект
+1</a></li>​
+<li><a
+href="https://github.com/hucketa/LR1">Проект
+2</a></li>​
+ </ul>​
+​
+<h2>Блог</h2>​
+<ul>​
+{% for post in site.posts %}​
+<li>​
+<a href="{{ post.url }}">{{ post.title }}</a>​
+- {{ post.date | date: "%d.%m.%Y" }}​
+</li>​
+{% endfor %}​
+</ul>​
+</div>
